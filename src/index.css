@@ -2,10 +2,11 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  margin: 0 auto;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #c1e88c;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,16 +24,20 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
+  margin: 0 auto;
+  display: flexbox;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  padding: 20%;
+  text-align: center;
+  background-color: rgb(236, 180, 106);
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  
 }
 
 button {
@@ -42,7 +47,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #bcec82;
   cursor: pointer;
   transition: border-color 0.25s;
 }
